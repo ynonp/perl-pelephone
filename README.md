@@ -2,7 +2,7 @@
 
 ### Course Information and Examples
 
-Syntax Exercise:
+Syntax Exercise:  
 http://ynonperek.com/courses/basic-perl/syntax-ex.html
 
 
