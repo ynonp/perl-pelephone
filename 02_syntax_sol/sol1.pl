@@ -21,7 +21,9 @@ print "Read 1 number: $max";
 
 for ( 1..9 ) {
 	my $val = <>;
-	# Go back to start of the block
+	# check if $val is a number:
+	# If it is continue, and if not
+	# redo the loop body
 	redo if ! looks_like_number($val);
 
 	# "next" -> just like continue
