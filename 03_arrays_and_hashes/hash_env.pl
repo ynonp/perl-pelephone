@@ -10,7 +10,6 @@ my @values = values %ENV;
 # Only the keys
 my @keys = keys %ENV;
 
-
 while (my ($name, $val) = each %ENV) {
 	my $first_letter = substr($name, 0, 1);
 	next if lc($first_letter) ne "a";
