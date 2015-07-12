@@ -1,11 +1,11 @@
 ## Working With Files
 
-1. Write a perl program that takes a file name as input, if the file is a program - execute it, otherwise prints its contents
+1. Write a perl program that takes a file name as input, if the file is a program - execute it, otherwise prints its contents (Hint: use -x)
 
 2. Write a perl program that "remembers" how many times it was called. On the first run it creates a new file called "count.bin" and writes 0 to it.
 Subsequent runs should update the file and print 1, 2, 3, etc.
 
-3. Write a perl program that reads an input file for IP addresses and tries to ping each address.
+3. Write a perl program that reads an input file for IP addresses and tries to ping each address. Print which hosts replied and which hosts were down.
 Input file format:
 
 		google 212.179.180.95
