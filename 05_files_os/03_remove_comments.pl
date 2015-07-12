@@ -9,6 +9,11 @@ my ($input_file, $output_file) = @ARGV;
 open my $fi, '<', $input_file or 
 	die "Failed to open file: $input_file. Error was: $!";
 
+# Try to open the file for writing.
+# If fail print an error message and quit the program
+# The variable $! holds the "open" error as received
+# from the operating system
+# For more special variables run: perldoc perlvar
 open my $fo, '>', $output_file or
 	die "Failed to open file: $output_file. Error was: $!";
 
