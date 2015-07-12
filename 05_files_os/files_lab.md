@@ -16,6 +16,7 @@ Input file format:
 
 4. Read a list of directory names from a file "input.txt" and create a new directory for each line in the file.
 Sample input.txt:
+
 		foo
 		bar
 		buz
